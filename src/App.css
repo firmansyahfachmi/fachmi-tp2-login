@@ -1,9 +1,9 @@
-.App {
-  text-align: center;
+body{
+  /* color: #fff !important; */
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -26,6 +26,37 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.wrapper{
+  background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-wrap{
+  display: flex;
+  justify-content: center;
+}
+
+.form{
+  width:400px;
+  background-color: #33363d;
+  color: #fff;
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.error-msg{
+  color: salmon !important;
+}
+
+.button-box{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 @keyframes App-logo-spin {
